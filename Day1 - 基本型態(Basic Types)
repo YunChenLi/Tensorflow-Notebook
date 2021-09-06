@@ -1,0 +1,41 @@
+在學習Python的過程中會遇到許多不同的資料型態，每個資料型態都有著不同身分
+
+而資料型態包括以下:
+
+- 數值型態:
+ - 整數(integer)
+ - 浮點數(float)
+ - 布林(boolean)
+ - 複數(complex)
+- 字串型態: 
+ - 字串(string)
+
+-  容器型態: 
+ - 集合(set)
+ - 字典(dictionary)
+ - 串列(list)
+ - 多元組(tuple)
+
+
+可以利用'''type()'''來確認目前的資型態，例如:
+
+a = 2 ###type(a) == integer
+a = 1.2 ###type(a) == float
+a = True ###type(a) == bool
+a = 'A' ###type(a) == str
+a = [1,2,3] ###type(a) == list
+a = (1,2) ###type(a) == tuple
+a = {1,2} ###type(a) == set
+a = {'name': 'Ryan', 'graduaed year': 1998, 'School': 'Washington University'} ###type(a) == dict
+a = 1 + 3j ###type(a) == complex
+
+以上這些資料型態是較為常用的，也可以help(type)更深入了解
+
+Help on class type in module builtins:
+
+class type(object)
+ |  type(object_or_name, bases, dict)
+ |  type(object) -> the object's type
+ |  type(name, bases, dict) -> a new type
+ 
+ 接下來，了解了資料型態後，我們在下一章節學習不同資料型態的轉換與應用
